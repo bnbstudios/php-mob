@@ -1,0 +1,159 @@
+Cloning seed app for Android
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
+C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "MOBAPP" com.company.mobapp 1.0 "C:\Users\Bishal\AppData\Local\Android\android-sdk" undefined
+____________________
+</DW>
+C_ERROR: Cannot copy phonegap files. Terminating.java.io.FileNotFoundException: com.company.mobapp\src\com\company\mobapp\DefaultActivity.java (The system cannot find the path specified)
+ERROR: Clone failed
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\AppData\Local\Android\ANDROI~1\PLATFO~2
+C:\Users\Bishal\AppData\Local\Android\android-sdk\platform-tools\adb.exe devices
+____________________
+</DW>
+List of devices attached
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+
+Launching the Android emulator
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\AppData\Local\Android\ANDROI~1\tools
+C:\Windows\SysWOW64\cmd.exe /u /c "C:\Users\Bishal\AppData\Local\Android\android-sdk\tools\emulator.exe -partition-size 1024 -cpu-delay 0 -no-boot-anim -avd DW_AVD"
+____________________
+</DW>
+WARNING: no icon was specified in app settings. using default.
+WARNING: no splash screen was specified in app settings. using default.
+Cloning seed app for Android
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
+C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "MOBAPP" com.company.mobapp 1.0 "C:\Users\Bishal\AppData\Local\Android\android-sdk"
+____________________
+</DW>
+C_Using latest target: 1
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\src\com\company\mobapp
+Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\src\com\company\mobapp\DefaultActivity.java
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\bin
+Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\values\strings.xml
+Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\layout\main.xml
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\drawable-xhdpi
+Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\AndroidManifest.xml
+Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\build.xml
+Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\proguard-project.txt
+CLONE SUCCESSFUL
+
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
+C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat debug
+____________________
+</DW>
+Buildfile: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at C:\Users\Bishal\AppData\Local\Android\android-sdk
+
+-setup:
+     [echo] Project Name: mobapp
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 24.0.0
+     [echo] Resolving Build Target for mobapp...
+[gettarget] Project Target:   Android N
+[gettarget] API level:        24
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\res
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\rsObj
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\rsLibs
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\gen
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\classes
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for mobapp...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\classes
+    [javac] C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\src\com\company\mobapp\DefaultActivity.java:4: cannot access android.app.Activity
+    [javac] bad class file: android\app\Activity.class(android\app:Activity.class)
+    [javac] class file has wrong version 52.0, should be 50.0
+    [javac] class file has wrong version 52.0, should be 50.0
+    [javac] Please remove or make sure it appears in the correct subdirectory of the classpath.
+    [javac]     import android.app.Activity;
+    [javac]                       ^
+
+BUILD FAILED
+C:\Users\Bishal\AppData\Local\Android\android-sdk\tools\ant\build.xml:716: The following error occurred while executing this line:
+C:\Users\Bishal\AppData\Local\Android\android-sdk\tools\ant\build.xml:730: Compile failed; see the compiler error output for details.
+
+Total time: 7 seconds
+OPERATION CANCELED
+<DW>
+____________________
+set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
+set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\Bishal\AppData\Local\Android\ANDROI~1\PLATFO~2
+C:\Users\Bishal\AppData\Local\Android\android-sdk\platform-tools\adb.exe kill-server
+____________________
+</DW>
