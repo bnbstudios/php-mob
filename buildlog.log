@@ -1,16 +1,3 @@
-Cloning seed app for Android
-<DW>
-____________________
-set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
-set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
-set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
-set PATH=%JAVA_HOME%\bin;%PATH%
-cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
-C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "MOBAPP" com.company.mobapp 1.0 "C:\Users\Bishal\AppData\Local\Android\android-sdk" undefined
-____________________
-</DW>
-C_ERROR: Cannot copy phonegap files. Terminating.java.io.FileNotFoundException: com.company.mobapp\src\com\company\mobapp\DefaultActivity.java (The system cannot find the path specified)
-ERROR: Clone failed
 
 <DW>
 ____________________
@@ -46,20 +33,28 @@ set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
 set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
 set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
 set PATH=%JAVA_HOME%\bin;%PATH%
-cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
-C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "MOBAPP" com.company.mobapp 1.0 "C:\Users\Bishal\AppData\Local\Android\android-sdk"
+cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP
+C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "C:\Program Files (x86)\Adobe\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "Employee" com.company.employee 1.0 "C:\Users\Bishal\AppData\Local\Android\android-sdk"
 ____________________
 </DW>
-C_Using latest target: 1
-Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\src\com\company\mobapp
-Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\src\com\company\mobapp\DefaultActivity.java
-Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\bin
-Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\values\strings.xml
-Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\layout\main.xml
-Created directory C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\res\drawable-xhdpi
-Updated file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\AndroidManifest.xml
-Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\build.xml
-Added file C:\Users\Bishal\Documents\Desktop\com.company.mobapp_Android\com.company.mobapp\proguard-project.txt
+C Using latest target: 1
+Created project directory: C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\src\com\company\employee
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\src\com\company\employee\DefaultActivity.java
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\bin
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\libs
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\values
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\values\strings.xml
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\layout
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\layout\main.xml
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\drawable-xhdpi
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\drawable-hdpi
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\drawable-mdpi
+Created directory C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\res\drawable-ldpi
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\AndroidManifest.xml
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\build.xml
+Added file C:\Users\Bishal\Documents\Desktop\com.company.employee_Android\com.company.employee\proguard-project.txt
 CLONE SUCCESSFUL
 
 <DW>
@@ -68,22 +63,22 @@ set ANT_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
 set ANDROID_HOME=C:\Users\Bishal\AppData\Local\Android\android-sdk
 set JAVA_HOME=C:\PROGRA~2\Adobe\ADOBED~2.5\JDK
 set PATH=%JAVA_HOME%\bin;%PATH%
-cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB
+cd C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP
 C:\Windows\SysWOW64\cmd.exe /u /c C:\PROGRA~2\Adobe\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat debug
 ____________________
 </DW>
-Buildfile: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\build.xml
+Buildfile: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\build.xml
 
 -set-mode-check:
 
 -set-debug-files:
 
 -check-env:
- [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Android SDK Tools Revision 25.1.7
  [checkenv] Installed at C:\Users\Bishal\AppData\Local\Android\android-sdk
 
 -setup:
-     [echo] Project Name: mobapp
+     [echo] Project Name: employee
   [gettype] Project Type: Application
 
 -set-debug-mode:
@@ -93,20 +88,20 @@ Buildfile: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\build.xml
 -pre-build:
 
 -build-setup:
-[getbuildtools] Using latest Build Tools: 24.0.0
-     [echo] Resolving Build Target for mobapp...
-[gettarget] Project Target:   Android N
+[getbuildtools] Using latest Build Tools: 24.0.1
+     [echo] Resolving Build Target for employee...
+[gettarget] Project Target:   Android 7.0
 [gettarget] API level:        24
      [echo] ----------
      [echo] Creating output directories if needed...
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\res
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\rsObj
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\rsLibs
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\gen
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\classes
-    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\dexedLibs
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\res
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\rsObj
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\rsLibs
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\gen
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\classes
+    [mkdir] Created dir: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\dexedLibs
      [echo] ----------
-     [echo] Resolving Dependencies for mobapp...
+     [echo] Resolving Dependencies for employee...
 [dependency] Library dependencies:
 [dependency] No Libraries
 [dependency] 
@@ -132,10 +127,9 @@ Buildfile: C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\build.xml
 -pre-compile:
 
 -compile:
-    [javac] Compiling 3 source files to C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\bin\classes
-    [javac] C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.MOB\src\com\company\mobapp\DefaultActivity.java:4: cannot access android.app.Activity
+    [javac] Compiling 3 source files to C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\bin\classes
+    [javac] C:\Users\Bishal\DOCUME~1\Desktop\COMCOM~1.EMP\src\com\company\employee\DefaultActivity.java:4: cannot access android.app.Activity
     [javac] bad class file: android\app\Activity.class(android\app:Activity.class)
-    [javac] class file has wrong version 52.0, should be 50.0
     [javac] class file has wrong version 52.0, should be 50.0
     [javac] Please remove or make sure it appears in the correct subdirectory of the classpath.
     [javac]     import android.app.Activity;
@@ -145,7 +139,7 @@ BUILD FAILED
 C:\Users\Bishal\AppData\Local\Android\android-sdk\tools\ant\build.xml:716: The following error occurred while executing this line:
 C:\Users\Bishal\AppData\Local\Android\android-sdk\tools\ant\build.xml:730: Compile failed; see the compiler error output for details.
 
-Total time: 7 seconds
+Total time: 9 seconds
 OPERATION CANCELED
 <DW>
 ____________________
